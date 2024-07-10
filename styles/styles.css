@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+.btn{
+    cursor: pointer;
+}
 /* font family of body */
 body{
     font-family: Azeret Mono;
@@ -395,4 +398,98 @@ iframe{
     line-height: 27.733px;
     letter-spacing: 0%;
     opacity: 0.7;
+}
+/* support section styling */
+#support{
+    margin: 0 auto 85.333px;
+    height: 333.866px;
+    aspect-ratio: 1140/313;
+    padding: 68.266px 51.2px;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 17.066px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25.6px;
+}
+#support_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 17.066px;
+}
+#support_text h3{
+    color: rgb(255, 255, 255);
+    font-size: 34.133px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+}
+#support_text p{
+    color: rgb(255, 255, 255);
+    font-size: 17.066px;
+    font-weight: 400;
+    line-height: 27.733px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+#support_field{
+    display: flex;
+    align-items: center;
+    gap: 17.066px;
+}
+div textarea{
+    height: 60.8px;
+    aspect-ratio: 548/57;
+    padding: 20.266px 21.333px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8.533px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 17.066px;
+    font-weight: 400;
+    line-height: 20.266px;
+    letter-spacing: 0%;
+}
+div input[type="submit"]{
+    height: 61.866px;
+    aspect-ratio: 60/29;
+    padding: 18.133px 21.333px;
+    border-radius: 8.533px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 21.333px;
+    font-weight: 600;
+    line-height: 24.533px;
+    letter-spacing: 0%;
+}
+/* end styling */
+footer{
+    margin: 0 auto;
+    height: 106.666px;
+    aspect-ratio: 72/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 645px;
+}
+footer h4{
+    color: rgb(13, 19, 33);
+    font-size: 21.333px;
+    font-weight: 600;
+    line-height: 24.533px;
+    letter-spacing: 0%;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    gap: 25.6px;
 }
