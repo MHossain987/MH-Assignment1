@@ -96,12 +96,13 @@ body{
 /* why web development styling */
 #development{
     margin: 0 auto 93.866px;
-    height: 1488px;
-    aspect-ratio: 76/93;
+    height: 1600px;
+    aspect-ratio: 19/25;
     padding: 85.333px 103.466px;
     border: none;
     border-radius: 17.066px;
     background: rgba(13, 19, 33, 0.02);
+    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.25);
 }
 #development_introduction{
     display: flex;
@@ -109,6 +110,7 @@ body{
     align-items: center;
     gap: 25.6px;
     text-align: center;
+    margin-bottom: 51.2px;
 }
 #development_introduction h3{
     color: rgb(13, 19, 33);
@@ -125,8 +127,69 @@ body{
     letter-spacing: 0%;
     opacity: 0.7;
 }
+#optimist{
+    display: flex;
+    flex-direction: column;
+    gap: 34.133px;
+}
 .impact{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    margin: 51.2px;
+    border: none;
+    border-radius: 17.066px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.25);
+}
+.impact_img{
+    margin: 51.2px 51.2px 51.2px 0;
+}
+#impact_image{
+    margin: 51.2px 0 51.2px 51.2px;
+}
+.impact_text_button{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 51.2px;
+}
+#Impact_Text_Button{
+    margin-left: 34.133px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.impact_text{
+    margin: 11.2px 105.41866px 34.133px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 17.066px;
+}
+.impact_text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 25.6px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+}
+.impact_text p{
+    color: rgb(13, 19, 33);
+    font-size: 17.066px;
+    font-weight: 400;
+    line-height: 27.733px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+.button_03{
+    padding: 12.8px 21.333px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 21.333px;
+    font-weight: 600;
+    line-height: 24.533px;
+    letter-spacing: 0%;
+    text-align: center;
 }
