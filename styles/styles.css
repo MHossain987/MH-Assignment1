@@ -238,3 +238,85 @@ iframe{
     aspect-ratio: 538/275;
     border-radius: 17.066px;
 }
+/* my current target section styling */
+#current_target{
+    margin: 0 auto 118.4px;
+    height: 490.666px;
+    aspect-ratio: 57/23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 51.2px;
+}
+#current_target_pretext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25.6px;
+}
+#current_target_pretext h3{
+    color: rgb(13, 19, 33);
+    font-size: 34.133px;
+    font-weight: 800;
+    line-height: 39.466px;
+    letter-spacing: 0%;
+}
+#current_target_pretext p{
+    color: rgb(13, 19, 33);
+    font-size: 17.066px;
+    font-weight: 400;
+    line-height: 27.733px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+#target_contents{
+    display: flex;
+    justify-content: center;
+    gap: 25.6px;
+}
+#target_contents h3{
+    color: rgb(13, 19, 33);
+    font-size: 25.6px;
+    font-weight: 800;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    margin-bottom: 8.533px;
+}
+#target_contents p{
+    color: rgb(13, 19, 33);
+    font-size: 17.066px;
+    font-weight: 400;
+    line-height: 27.733px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+.target_content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    gap: 25.6px;
+    padding: 42.666px;
+    border: none;
+    border-radius: 17.066px;
+}
+#html{
+    background: rgba(255, 76, 30, 0.05);
+    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.25);
+}
+#css{
+    background: rgba(0, 76, 232, 0.05);
+    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.25);
+}
+#javascript{
+    background: rgba(255, 223, 0, 0.05);
+    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.25);
+}
+.ct_anchor{
+    color: rgb(13, 19, 33);
+    font-size: 17.066px;
+    font-weight: 700;
+    line-height: 20.266px;
+    letter-spacing: 0%;
+}
