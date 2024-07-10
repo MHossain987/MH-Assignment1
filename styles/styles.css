@@ -96,9 +96,13 @@ body{
 /* why web development styling */
 #development{
     margin: 0 auto 93.866px;
-    height: 1600px;
-    aspect-ratio: 19/25;
+    height: 1488px;
+    aspect-ratio: 76/93;
     padding: 85.333px 103.466px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62.577px;
     border: none;
     border-radius: 17.066px;
     background: rgba(13, 19, 33, 0.02);
@@ -110,7 +114,6 @@ body{
     align-items: center;
     gap: 25.6px;
     text-align: center;
-    margin-bottom: 51.2px;
 }
 #development_introduction h3{
     color: rgb(13, 19, 33);
@@ -126,47 +129,41 @@ body{
     line-height: 27.733px;
     letter-spacing: 0%;
     opacity: 0.7;
+    margin-bottom: 25.6px;
 }
-#optimist{
-    display: flex;
-    flex-direction: column;
-    gap: 34.133px;
+.impact_img{
+    margin-left: 0;
 }
-.impact{
-    display: flex;
-    align-items: center;
-    margin: 51.2px;
+#impact_image{
+    margin-right: 0;
+}
+.impact_text_button{
+    padding: 51.2px;
+    box-sizing: border-box;
     border: none;
     border-radius: 17.066px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.01);
-}
-.impact_img{
-    margin: 51.2px 51.2px 51.2px 0;
-}
-#impact_image{
-    margin: 51.2px 0 51.2px 51.2px;
-}
-.impact_text_button{
+    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.03);
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-left: 51.2px;
+    align-items: center;
 }
 #Impact_Text_Button{
-    margin-left: 34.133px;
+    padding: 51.2px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 17.066px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.03);
     display: flex;
-    flex-direction: column;
-    align-items: start;
+    align-items: center;
+    gap: 34.133px;
 }
 .impact_text{
-    margin: 11.2px 105.41866px 34.133px 0;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    gap: 17.066px;
+    align-items: left;
 }
-.impact_text h3{
+.impact_text h4{
     color: rgba(13, 19, 33, 0.7);
     font-size: 25.6px;
     font-weight: 700;
@@ -180,6 +177,8 @@ body{
     line-height: 27.733px;
     letter-spacing: 0%;
     opacity: 0.7;
+    margin-top: 17.066px;
+    margin-bottom: 34.133px;
 }
 .button_03{
     padding: 12.8px 21.333px;
@@ -319,4 +318,81 @@ iframe{
     font-weight: 700;
     line-height: 20.266px;
     letter-spacing: 0%;
+}
+/* my next target styling */
+#next_target{
+    margin: 0 auto 52.266px;
+    height: 923.733px;
+    aspect-ratio: 570/433;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25.6px;
+}
+#next_target_pretext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25.6px;
+    text-align: center;
+}
+#next_target_pretext p{
+    margin-bottom: 25.6px;
+}
+.next_contents{
+    padding: 42.666px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 17.066px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4.266px 4.266px 0 rgba(0, 0, 0, 0.03);
+    display: flex;
+    align-items: center;
+    gap: 25.6px;
+}
+.next_content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.next_content p{
+    margin-top: 8.533px;
+    margin-bottom: 25.6px;
+}
+.nt_anchor{
+    color: rgb(13, 19, 33);
+    font-size: 17.066px;
+    font-weight: 700;
+    line-height: 20.266px;
+    letter-spacing: 0%;
+}
+#next_target_pretext h3{
+    color: rgb(13, 19, 33);
+    font-size: 34.133px;
+    font-weight: 800;
+    line-height: 39.466px;
+    letter-spacing: 0%;
+}
+#next_target_pretext p{
+    color: rgb(13, 19, 33);
+    font-size: 17.066px;
+    font-weight: 400;
+    line-height: 27.733px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+.next_content h4{
+    color: rgb(13, 19, 33);
+    font-size: 25.6px;
+    font-weight: 800;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+}
+.next_content p{
+    color: rgb(13, 19, 33);
+    font-size: 17.066px;
+    font-weight: 400;
+    line-height: 27.733px;
+    letter-spacing: 0%;
+    opacity: 0.7;
 }
